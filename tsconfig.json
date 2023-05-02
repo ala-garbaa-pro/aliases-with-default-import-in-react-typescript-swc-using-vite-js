@@ -21,8 +21,8 @@
     "types": ["node"],
     "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"],
-      "components/*": ["./src/components/*"]
+      "@/*": ["./*"],
+      "components/*": ["./components/*"]
     }
   },
   "include": ["src", "src/**/*.tsx"],
