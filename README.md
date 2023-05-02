@@ -124,6 +124,7 @@ Take a look at:
 
 => It worked.
 
-Note: Great, thanks to @sapphi-red (https://github.com/vitejs/vite/discussions/13066#discussioncomment-5778752)!
+Note: Great, thanks to [翠](https://github.com/sapphi-red) / [13066](https://github.com/vitejs/vite/discussions/13066#discussioncomment-5778752)
+
 
 
