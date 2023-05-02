@@ -53,8 +53,8 @@ In the `tsconfig.json` file, add these lines:
     ...
 +    "baseUrl": "./src",
 +    "paths": {
-+      "@/*": ["./src/*"],
-+      "components/*": ["./src/components/*"]
++      "@/*": ["./*"],
++      "components/*": ["./src/*"]
     }
   },
 +  "include": ["src", "src/**/*.tsx"],
@@ -106,7 +106,7 @@ Will we use the `DarkSwitch` component.
 
 ```bash
 |-- App.css
-|-- App.tsx                <---- import { DarkSwitch } from "@/components";  /* It worked, but with a warning in VSCode. */
+|-- App.tsx                <---- import { DarkSwitch } from "@/components";
 |-- assets
 |   `-- react.svg
 |-- components
@@ -122,12 +122,8 @@ Take a look at:
 
 |-- App.tsx                <---- import { DarkSwitch } from "@/components";  
 
-->  It worked, but with a warning in VSCode.
+=> It worked.
 
+Note: Great, thanks to @sapphi-red (https://github.com/vitejs/vite/discussions/13066#discussioncomment-5778752)!
 
-![wss](https://user-images.githubusercontent.com/79337368/235625884-c3f13823-93e5-41bd-be32-9f56f860871a.png)
-
-```bash
-Cannot find module '@/components' or its corresponding type declarations.ts(2307)
-```
 
