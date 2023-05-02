@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-// also don't forget to `npm i -D @types/node`, so __dirname won't complain
+// Also, don't forget to npm i -D @types/node so that __dirname won't throw an error.
 import * as path from "path";
 
 // https://vitejs.dev/config/
