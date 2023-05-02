@@ -118,11 +118,7 @@ Will we use the `DarkSwitch` component.
 ```
 
 
-Take a look at:
-
-|-- App.tsx                <---- import { DarkSwitch } from "@/components";  
-
-=> It worked.
+=> It worked. 😁
 
 Note: Great, thanks to [翠](https://github.com/sapphi-red) / [13066](https://github.com/vitejs/vite/discussions/13066#discussioncomment-5778752)
 
