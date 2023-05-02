@@ -28,7 +28,7 @@ The final code looks like this:
 ```ts
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-// lso don't forget to `npm i -D @types/node`, so __dirname won't complain
+// Also, don't forget to npm i -D @types/node so that __dirname won't throw an error.
 mport * as path from "path";
 
 // https://vitejs.dev/config/
