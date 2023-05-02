@@ -116,3 +116,18 @@ Will we use the `DarkSwitch` component.
 |-- main.tsx
 `-- vite-env.d.ts
 ```
+
+
+Take a look at:
+
+|-- App.tsx                <---- import { DarkSwitch } from "@/components";  
+
+->  It worked, but with a warning in VSCode.
+
+
+![wss](https://user-images.githubusercontent.com/79337368/235625884-c3f13823-93e5-41bd-be32-9f56f860871a.png)
+
+```bash
+Cannot find module '@/components' or its corresponding type declarations.ts(2307)
+```
+
